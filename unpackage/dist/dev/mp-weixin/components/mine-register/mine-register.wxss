@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.register-top {
+  display: flex;
+  justify-content: space-evenly;
+}
+.register-top .register-back {
+  width: 45%;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.register-top .register-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-top .register-text .text {
+  color: rgba(101, 135, 181, 0.8);
+  font-size: 100rpx;
+  text-shadow: 5rpx 5rpx 1rpx #6587b5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.register-continer {
+  height: 450rpx;
+  background: rgba(101, 135, 181, 0.4);
+  margin-top: 10rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  border-radius: 20rpx;
+}
+.register-continer .register-on {
+  display: flex;
+  justify-content: center;
+}
+.register-continer .register-on .uni-input-0 {
+  width: 500rpx;
+  height: 50rpx;
+  border-bottom: 1rpx solid grey;
+  padding-top: 40rpx;
+  padding-bottom: 10rpx;
+  margin-bottom: 30rpx;
+}
+.register-continer .register-on .uni-input-1 {
+  width: 500rpx;
+  height: 50rpx;
+  border-bottom: 1rpx solid grey;
+  padding-bottom: 10rpx;
+  margin-bottom: 30rpx;
+}
+.uni-input-wrapper {
+  width: 500rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid grey;
+  padding-bottom: 10rpx;
+  margin-bottom: 30rpx;
+}
+.uni-input-wrapper .uni-icon {
+  height: 50rpx;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button .register-button {
+  background-color: #6587b5;
+  margin-top: 50rpx;
+  width: 300rpx;
+}
+

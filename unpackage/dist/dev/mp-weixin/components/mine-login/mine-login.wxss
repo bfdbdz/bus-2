@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.login-img {
+  display: flex;
+  justify-content: center;
+}
+.login-img .login-back {
+  width: 80%;
+}
+.login-continer {
+  height: 540rpx;
+  background: rgba(101, 135, 181, 0.4);
+  margin-top: 30rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  border-radius: 20rpx;
+}
+.login-continer .login-text {
+  font-size: 50rpx;
+  text-align: center;
+  padding-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.login-continer .login-on {
+  display: flex;
+  justify-content: center;
+}
+.login-continer .login-on .uni-input-1 {
+  width: 500rpx;
+  height: 50rpx;
+  border-bottom: 1rpx solid grey;
+  padding-bottom: 10rpx;
+  margin-bottom: 30rpx;
+}
+.login-continer .button {
+  display: flex;
+  justify-content: center;
+}
+.login-continer .button .login-button {
+  background-color: #6587b5;
+  margin-top: 50rpx;
+  width: 300rpx;
+}
+.uni-input-wrapper {
+  width: 500rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid grey;
+  padding-bottom: 10rpx;
+}
+.uni-input-wrapper .uni-icon {
+  height: 50rpx;
+}
+.register {
+  display: flex;
+  justify-content: center;
+}
+.register .register-text {
+  font-size: 25rpx;
+  color: gray;
+}
+

@@ -1,0 +1,71 @@
+{
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/getoff/getoff",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校车通",
+		"navigationBarBackgroundColor": "#6587b5",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#6587b5",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tab_icons/home.png",
+				"selectedIconPath": "static/tab_icons/home.png"
+			},
+			{
+				"pagePath": "pages/getoff/getoff",
+				"text": "下车站点",
+				"iconPath": "static/tab_icons/getoff.png",
+				"selectedIconPath": "static/tab_icons/getoff.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息",
+				"iconPath": "static/tab_icons/message.png",
+				"selectedIconPath": "static/tab_icons/message.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tab_icons/mine.png",
+				"selectedIconPath": "static/tab_icons/mine.png"
+			}
+		]
+	}
+}

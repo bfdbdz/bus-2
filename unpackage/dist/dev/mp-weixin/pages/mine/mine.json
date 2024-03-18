@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mine-login": "/components/mine-login/mine-login",
+    "mine-register": "/components/mine-register/mine-register",
+    "mine-userinfo": "/components/mine-userinfo/mine-userinfo"
+  }
+}
